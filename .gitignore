@@ -1,0 +1,35 @@
+# Entorno virtual
+venv/
+.env
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos de compilación
+__pycache__/
+*.py[cod]
+*.so
+
+# Node.js (frontend)
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de sistema operativo
+*.swp
+*.swo
+
+# Archivos de producción
+dist/
+build/
