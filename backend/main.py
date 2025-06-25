@@ -20,7 +20,9 @@ def analizar_textos(data: TextosEntrada):
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # o ["*"] para permitir todo
+    allow_origins=["http://localhost:3000",
+                   "https://prevent-ai.vercel.app"
+                   ],  # o ["*"] para permitir todo
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
