@@ -37,7 +37,7 @@ interface AnalysisResult {
 
 // Mock analysis function (replace with actual API call to your Python backend)
 const analyzeText = async (text: string): Promise<Omit<AnalysisResult, "id" | "timestamp">> => {
-  const response = await fetch("http://127.0.0.1:8000/analizar", {
+  const response = await fetch("https://preventai.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
